@@ -1,0 +1,50 @@
+header {
+    background-color: #ABFF14;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.na {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-top: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+article {
+    display: flex;
+    flex-grow: 1;
+    background-color: #2A29FF;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+section {
+    background-color: #A4FFF5;
+    flex: 1;
+    margin-right: 10px;
+}
+
+aside {
+    background-color: #5AF9FF;
+    width: 200px; 
+}
+
+footer {
+    background-color: #FF6B2F;
+    padding: 5px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+}
